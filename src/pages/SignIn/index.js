@@ -46,9 +46,9 @@ function Copyright() {
       {'Copyright © '}
       <a
         color="inherit"
-        href="https://www.youtube.com/channel/UCVE9-HO_GzLtDK4IGKVSYXA"
+        href="https://www.linkedin.com/in/rodrigodevsecops/"
       >
-        Lucas Nhimi
+        Rodrigo Lima
       </a>{' '}
       {new Date().getFullYear()}
     </Typography>
