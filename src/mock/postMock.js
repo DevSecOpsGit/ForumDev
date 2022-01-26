@@ -9,7 +9,7 @@ mock.onGet('/api/post/como-melhorar-seu-codigo-javascript').reply(200, {
   date: moment().subtract(1, 'day').toDate().getTime(),
   author: {
     id: 1,
-    name: 'Lucas Nhimi',
+    name: 'Rodrigo Lima',
     avatar: '/images/avatars/avatar_1.jpeg',
   },
   markdownText: `
@@ -52,7 +52,7 @@ mock.onGet('/api/feed').reply(200, {
       date: moment().subtract(1, 'day').toDate().getTime(),
       author: {
         id: 1,
-        name: 'Lucas Nhimi',
+        name: 'Rodrigo Lima',
         avatar: '/images/avatars/avatar_1.jpeg',
       },
       tags: ['reactjs', 'javascript'],
@@ -73,7 +73,7 @@ mock.onGet('/api/posts/user/lucasnhimi').reply(200, {
       date: moment().subtract(1, 'day').toDate().getTime(),
       author: {
         id: 1,
-        name: 'Lucas Nhimi',
+        name: 'Rodrigo Lima',
         avatar: '/images/avatars/avatar_1.jpeg',
       },
       tags: ['eslint', 'prettier', 'editorconfig', 'vscode'],
